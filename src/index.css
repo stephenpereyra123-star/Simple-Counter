@@ -4,6 +4,10 @@
       min-height: 100vh;
 }
 
+body {
+      background-color: #e7e9ea;
+}
+
 @layer utilities {
       .no-spinner {
             appearance: textfield;

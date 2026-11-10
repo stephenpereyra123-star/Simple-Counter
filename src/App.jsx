@@ -6,9 +6,9 @@ import Counter from "./Counter";
 
 function App() {
       return (
-            <>
+            <div className="min-h-screen flex justify-center items-center">
                   <Counter />
-            </>
+            </div>
       );
 }
 

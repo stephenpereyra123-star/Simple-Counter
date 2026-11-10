@@ -32,7 +32,7 @@ export default function Counter() {
       };
 
       return (
-            <div className="flex flex-col justify-center items-center w-xl bg-black rounded-lg">
+            <div className="flex max-w-xl rounded-xl bg-[#FFFFFF] h-70 p-4">
                   <CounterForm updateVariants={updateVariants} />
                   <CounterDisplay
                         decrement={decrement}
@@ -44,3 +44,8 @@ export default function Counter() {
             </div>
       );
 }
+
+// Background: #F8FAFC
+// Card: #FFFFFF
+// Accent: #6366F1
+// Text: #0F172A
